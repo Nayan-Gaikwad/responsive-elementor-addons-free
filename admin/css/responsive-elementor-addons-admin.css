@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+body.toplevel_page_responsive_elementor_addons_getting_started {
+    background: #f3f6ff;
+}
+
+.responsive-elementor-addons-admin-page {
+	font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:focus,a:hover {
+    text-decoration: none;
+}
+
+.responsive-elementor-addons-text-button {
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    color: #89a4b9;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+}
+
+.responsive-elementor-addons-text-button i {
+    margin-left: 4px;
+}
+
+.responsive-elementor-addons-text-button:hover {
+    border-bottom-color: rgba(0,0,0,0);
+}
+
+.responsive-elementor-addons-pull-right {
+    float: right;
+}
+
+.responsive-elementor-addons-text-button.responsive-elementor-addons-pull-right {
+    margin-top: 15px;
+}
+
+.responsive-elementor-addons-green-text {
+    color: #5cc0a5;
+    font-weight: 700;
+}
+
+.responsive-elementor-addons-green-link {
+    color: #5cc0a5;
+    font-size: 16px;
+}
+
+.responsive-elementor-addons-addon-button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.responsive-elementor-addons-addon-button .responsive-elementor-addons-onboarding-button {
+    min-width: 134px;
+    text-align: center;
+}
+
+.responsive-elementor-addons-wpforms-row .responsive-elementor-addons-addon-icon {
+    height: 100px;
+    line-height: 98px;
+    width: 100px;
+}
+
+.responsive-elementor-addons-hidden {
+    display: none;
+}
+
+.responsive-elementor-addons-small {
+    font-size: 12px;
+}
+
+.responsive-elementor-addons-auth-info .responsive-elementor-addons-dark {
+    color: #393f4a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.responsive-elementor-addons-auth-info p {
+    margin-top: 6px;
+}
+
+p>label {
+    display: block;
+}
+
+p .responsive-elementor-addons-info {
+    margin-left: 4px;
+}
+
+.responsive-elementor-addons-sublabel {
+    font-weight: 400;
+    color: #777;
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.responsive-elementor-addons-button {
+    background: #f0793e;
+	border: solid #f0793e;
+	border-width: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+	font-size: 18px;
+    padding: 20px 50px;
+	text-transform: uppercase;
+}
+
+.responsive-elementor-addons-bg-img {
+    width: 100%;
+    padding-top: 66%;
+    position: relative;
+}
+
+.responsive-elementor-addons-bg-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.responsive-elementor-addons-logo {
+    display: inline-block;
+    width: 400px;
+    max-width: 100%;
+}
+
+.responsive-elementor-addons-logo .responsive-elementor-addons-bg-img {
+    padding-top: 21%;
+}
+
+.responsive-elementor-addons-smile {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.responsive-elementor-addons-license-type-text {
+    color: #777;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.responsive-elementor-addons-license-type-text a {
+    color: #777;
+    font-weight: 400;
+}
+
+.responsive-elementor-addons-license-type-text .responsive-elementor-addons-info {
+    margin-left: 10px;
+}
+
+.responsive-elementor-addons-welcome-container {
+    width: 992px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.responsive-elementor-addons-welcome-block {
+    background: #fff;
+    border: 1px solid #d6e2ed;
+    position: relative;
+    text-align: center;
+}
+
+.responsive-elementor-addons-welcome-block.responsive-elementor-addons-welcome-block-first {
+    padding-top: 50px;
+}
+
+.responsive-elementor-addons-welcome-logo:after {
+    width: 122px;
+    padding-top: 102%;
+    background-image: url(../images/Responsive-block-1.png);
+    background-size: cover;
+    margin: -1px 0 0 -1px;
+}
+
+.responsive-elementor-addons-welcome-logo-container {
+    position: absolute;
+    top: -60px;
+    width: 120px;
+    height: 120px;
+    left: 48%;
+    margin-left: -45px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #d6e2ed;
+}
+
+.responsive-elementor-addons-welcome-block-inner {
+    padding: 40px;
+}
+.responsive-elementor-addons-welcome-block-inner.full {
+    padding-bottom: 45px;
+}
+
+.responsive-elementor-addons-welcome-block-inner.responsive-elementor-addons-welcome-features {
+    padding-top: 0;
+}
+
+.responsive-elementor-addons-welcome-block-inner h3 {
+    color: #393f4c;
+    font-size: 24px;
+	font-weight: 500;
+    margin: 0 0 20px;
+    line-height: 1.4;
+	text-transform:uppercase;
+}
+
+.responsive-elementor-addons-welcome-block-inner p.responsive-elementor-addons-subtitle {
+    font-size: 16px;
+	max-width: 85%;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.responsive-elementor-addons-welcome-block-inner p.responsive-elementor-addons-subtitle.features-block {
+    font-weight: 500;
+}
+
+.responsive-elementor-addons-welcome-block-inner p.responsive-elementor-addons-subtitle.full {
+	max-width: 100%;
+	margin-top: 0;
+}
+.responsive-elementor-addons-welcome-video iframe {
+    width: 100%;
+}
+
+.responsive-elementor-addons-button-wrap {
+    margin: 20px auto 0;
+    max-width: 590px;
+}
+
+.responsive-elementor-addons-button-wrap .responsive-elementor-addons-button {
+    width: 100%;
+}
+
+.responsive-elementor-addons-button-wrap:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.responsive-elementor-addons-button:focus,.responsive-elementor-addons-button:hover {
+    background-color: #3a93dd;
+    border-color: #2971a9;
+    color: #fff;
+}
+
+.responsive-elementor-addons-button.responsive-elementor-addons-button-large {
+    font-size: 18px;
+    padding: 20px 27px;
+	text-transform: uppercase;
+}
+
+.responsive-elementor-addons-welcome-left {
+    padding-right: 20px;
+}
+
+.responsive-elementor-addons-welcome-right {
+    padding-left: 20px;
+}
+
+@media (max-width: 782px) {
+    .responsive-elementor-addons-welcome-right {
+        padding-top:25px;
+    }
+}
+
+.responsive-elementor-addons-welcome-left,.responsive-elementor-addons-welcome-right {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 782px) {
+    .responsive-elementor-addons-welcome-left,.responsive-elementor-addons-welcome-right {
+        width:100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.responsive-elementor-addons-button.responsive-elementor-addons-button-alt {
+    background: #fff;
+    border-color: #f0793e;
+    color: #000000;
+}
+
+.responsive-elementor-addons-welcome-features {
+    padding-bottom: 0;
+}
+
+.responsive-elementor-addons-welcome-feature {
+    text-align: left;
+    width: 50%;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 10px;
+    margin-bottom: 25px;
+	min-height: 100px;
+}
+
+@media (max-width: 782px) {
+    .responsive-elementor-addons-welcome-feature {
+        width:100%;
+    }
+}
+
+.responsive-elementor-addons-welcome-feature:nth-child(2n) {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+@media (max-width: 782px) {
+    .responsive-elementor-addons-welcome-feature:nth-child(2n) {
+        padding-left:0;
+    }
+}
+
+@media (max-width: 782px) {
+    .responsive-elementor-addons-welcome-feature {
+        padding-right:0;
+    }
+}
+
+.responsive-elementor-addons-welcome-feature .responsive-elementor-addons-welcome-feature-img {
+    width: 46px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.responsive-elementor-addons-welcome-feature .responsive-elementor-addons-welcome-feature-img svg {
+    width: 100%;
+}
+
+.responsive-elementor-addons-welcome-feature .responsive-elementor-addons-welcome-feature-text h4 {
+    font-size: 16px;
+    color: #393f4c;
+    margin: 0;
+}
+
+.responsive-elementor-addons-welcome-feature .responsive-elementor-addons-welcome-feature-text p {
+    font-size: 14px;
+    margin-top: 5px;
+	margin-left: 0;
+}
+
+.responsive-elementor-addons-welcome-block-inner:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.responsive-elementor-addons-welcome-block-footer {
+    padding-bottom: 50px;
+	padding-top: 0;
+}
+
+#footer-left {
+    color: #393f4c;
+}
+
+#footer-left .responsive-elementor-addons-no-text-decoration {
+    text-decoration: none;
+    color: #fdb72c;
+    font-size: 14px;
+}
+
+#footer-left a {
+    color: #f0793e;
+}
+
+.responsive-elementor-addons-welcome-video-image {
+    padding-top: 47%;
+}
+
+.responsive-elementor-addons-welcome-video-image:after {
+    background-image: url(../images/rea-banner.jpg);
+}
+
+.responsive-elementor-addons-quick-links {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    -webkit-box-shadow: 0 0 10px 0 #ababab;
+    box-shadow: 0 0 10px 0 #ababab;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1000;
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item,
+.responsive-elementor-addons-quick-links.responsive-elementor-addons-quick-links-open,.responsive-elementor-addons-quick-links:focus,.responsive-elementor-addons-quick-links:hover {
+    -webkit-box-shadow: 0 0 15px 2px #ababab;
+    box-shadow: 0 0 15px 2px #ababab
+}
+
+.responsive-elementor-addons-quick-links-label {
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid rgba(147,120,207,.21);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 6px 6px 6px 8px;
+    display: block;
+	width: 80px;
+    height: 80px;
+    outline: none;
+    cursor: pointer
+}
+
+.responsive-elementor-addons-quick-links-open .responsive-elementor-addons-quick-links-label .responsive-elementor-addons-quick-link-title {
+    opacity: 0;
+    pointer-events: none;
+	transition: all 0.5s ease;
+}
+
+.responsive-elementor-addons-quick-links-close .responsive-elementor-addons-quick-links-label .responsive-elementor-addons-quick-link-title {
+    opacity: 1;
+}
+
+.responsive-elementor-addons-bg-img.responsive-elementor-addons-quick-links-mascot {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    padding-top: 100%;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease,-webkit-transform .3s ease;
+    display: block
+}
+
+.responsive-elementor-addons-bg-img.responsive-elementor-addons-quick-links-mascot:after {
+    background-image: url(../images/Responsive-block-1.png)
+}
+
+.responsive-elementor-addons-quick-links-open .responsive-elementor-addons-bg-img.responsive-elementor-addons-quick-links-mascot {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg)
+}
+
+.responsive-elementor-addons-quick-links-menu {
+    position: absolute;
+    bottom: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    right: -999px;
+    margin-bottom: 10px;
+	bottom: 80px;
+    transition: all 1s ease;
+}
+
+.responsive-elementor-addons-quick-links.responsive-elementor-addons-quick-links-open .responsive-elementor-addons-quick-links-menu {
+	right: 28px;
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: #464564;
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 0 #ababab;
+    box-shadow: 0 0 10px 0 #ababab;
+    margin-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+	padding:20%;
+}
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item img {
+	width: 85%;
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item:hover {
+    color: #fff;
+    background: #50abee;
+    -webkit-box-shadow: 0 0 15px 2px #ababab;
+    box-shadow: 0 0 15px 2px #ababab
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item.responsive-elementor-addons-show {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item.responsive-elementor-addons-quick-links-item-upgrade {
+    background: #f0793e;
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item.responsive-elementor-addons-quick-links-item-upgrade:hover {
+    background: #509fe2;
+}
+
+.responsive-elementor-addons-quick-link-title {
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #fff;
+    background: #464564;
+    border-radius: 5px;
+    white-space: nowrap;
+    padding: 6px 8px;
+    display: block;
+    top: 50%;
+    margin-top: -12px;
+    line-height: 1;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+    outline: none
+}
+
+.responsive-elementor-addons-admin-page,.responsive-elementor-addons-admin-page * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.responsive-elementor-addons-highlighted-text {
+    color: #64bfa5;
+    font-weight: 700
+}
+
+.responsive-elementor-addons-bold {
+    font-weight: 700
+}
+
+.responsive-elementor-addons-bg-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+#wpfooter {
+    position: relative
+}
+
+#wpfooter:before {
+    left: 20px;
+    right: 20px;
+    height: 1px;
+    background: #d6e2ed;
+    content: "";
+    position: absolute;
+    top: -12px
+}
+
+.responsive-elementor-addons-admin-page .responsive-elementor-addons-button:focus,.responsive-elementor-addons-admin-page .responsive-elementor-addons-button:hover {
+    background-color: #3a93dd;
+    border-color: #2971a9;
+    color: #fff
+}
+
+
+.responsive-elementor-addons-float-right {
+    float: right
+}
+
+.responsive-elementor-addons-welcome-video-image #welcome-video {
+	/** Default lightbox to hidden */
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    padding: 30px;
+    background-color: #00000065;
+    z-index: 9999999;
+
+}
+
+.responsive-elementor-addons-welcome-video-image #welcome-video .responsive-elementor-addons-welcome-overlay-inner {
+    width: 70%;
+    height: 600px;
+    margin-right: 8%;
+    margin-left: auto;
+    margin-top: 3%;
+    padding: 40px;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+
+.responsive-elementor-addons-welcome-video-image #welcome-video .responsive-elementor-addons-welcome-overlay-inner span {
+    float: right;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-right: -0.5em;
+}
+
+.rea-getting-started-video {
+    left: 4%;
+    top: 15%;
+    height: min-content;
+}
+
+.rea-gsv-content {
+    height: 440px;
+    width: 710px;
+}
+
+.rea-gsv-body {
+    height: 100%;
+}
+
+.rea-gsv-video-frame {
+    height: 100%;
+}
+
+.rea-gsv-modal-close {
+    position: absolute;
+    top: -30px;
+    right: -40px;
+    font-size: 3em;
+    color: black;
+    opacity: 1;
+    text-shadow: none;
+    transition: color 200ms ease-in-out;
+}
+.rea-gsv-modal-close:hover {
+    color: white;
+    opacity: 1;
+}
+
+.responsive-elementor-addons-getting-started-link {
+    cursor: pointer;
+}
+
+.rea-modal-fade-slide-in {
+    animation: fade-slide-in 600ms ease-in-out;
+}
+.rea-modal-fade-slide-out {
+    animation: fade-slide-out 600ms ease-in-out;
+}
+@keyframes fade-slide-in {
+    from {
+        top: 8%;
+        opacity: 0;
+    }
+    to {
+        top: 15%;
+        opacity: 1;
+    }
+}
+
+.responsive-elementor-addons-quick-links-menu .responsive-elementor-addons-quick-links-menu-item.responsive-elementor-addons-show {
+    display: flex;
+    align-items: center;
+}
